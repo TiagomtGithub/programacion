@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+body{background-color:black;}
+header{height: 10px;background-color: black;}
+footer{margin: 0 auto; background-image: linear-gradient(white, lightgray); width: 1200px; border-radius: 5px}
+
+#contenedor{
+	width: 1200px;
+	background-color: white;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+#contenedor h2{text-align: center;font-family: Algerian; font-weight: lighter;}
+
+#logo{width: 1200px;height: 200px ; background-image: linear-gradient(lightgray, white); margin: 0 auto; border-radius: 5px;}
+#logo h1{font-family: Algerian;font-size: 50px ; text-align: center;}
+#logo h1 a img{margin-top: 20px}
+
+
+#slider{
+	background-color:;
+}
+#slider img{width: 99.2%; height: 700px; margin-top: 10px; border: 5px solid white; border-radius: 10px}
+#slider figcaption{text-align: center; margin-top: 5px;font-family: Merriweather; font-size: 13px; text-decoration: underline;}
+#slider figcaption a:link,#slider figcaption a:visited{color: darkslateblue; display: inline;padding: 5px}
+#slider figcaption a:hover{color: darkslateblue; background-color: gray;}
+
+#vermas{
+	background-color: white;
+	height: 60px;
+	border-radius: 5px;
+}
+#vermas p{text-align: center; margin-top: 20px;font-family: Merriweather; font-size: 10px;}
+#vermas p a{width: 60px; height: 22px; background-color: rgb(230, 251, 255, 1.0); color: darkslateblue; border-radius: 5px; display: inline; 
+	padding: 5px;}
+
+#p1{text-align: center; margin-top: 10px;font-family: Merriweather; font-size: 10px;}
+#p2{font-family: Merriweather; font-size: 10px; padding: 5px}
+#p2 a{text-decoration: none; color: darkslateblue; border: 2px solid lightgray; border-style: dashed; background-color: ghostwhite;}
