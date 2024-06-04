@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+header{
+    display: flex;
+    width: 1423px;
+    height: 90px;
+    justify-content: space-between
+}
+#fondo{
+    background-image: url(img/fondo.jpg);
+}
+footer{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+}
+#footericonos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#iconos{
+    display: flex;
+    padding: 5px;
+    width: 500px;
+    gap: 20px;
+}
+#copy{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Muli;
+}
+#logo{
+    display: flex;
+    width: 500px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+#logo img{
+    width: 100px;
+    height: 80px;
+    margin: 5px 5px;
+}
+#logo h1 a{
+    color: rgb(57, 166, 216);
+    margin: 25px;
+    text-decoration: none;
+    display: block;
+    font-family: Heavitas;
+}
+#menu{
+    display: flex;
+    flex-grow: 1;
+    width: 1000px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.445);
+    justify-content: flex-end;
+    overflow: hidden;
+}
+#menu ul{
+    width: 1000px;
+    list-style: none;
+    height: 60px;
+    display: flex;
+    margin: 40px 120px;
+}
+#menu ul li{
+    font-family: Muli;
+    height: 60px; 
+    margin: 0 30px; 
+}
+#menu ul li a:link, #menu ul li a:visited{
+    display: block; 
+    height: 60px; 
+    margin: 0 5px; 
+    color: black; 
+    text-decoration: none;
+}
+#menu ul li a:hover{color: black; background-color: gray;}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1423px;
+    height: 1000px;
+}
+#productos{
+    margin-top: 150px;
+    height: 600px;
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.699);
+    overflow: hidden;
+}
+#productos article{
+    flex-direction: column;
+    align-items: center;
+    display: inline-flex;
+    justify-content:center;
+    margin: 30px 0 0 30px;
+    padding: 5px;
+}
+#productos article img{
+    max-width: 80%;
+    max-height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+#productos h2{
+    font-family: Muli;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+#productos p{
+    font-family: Muli;
+    color: white;
+    font-size: 20px;
+}
