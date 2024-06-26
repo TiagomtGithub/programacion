@@ -1,0 +1,282 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+header{
+    height: 90px;
+    background-color: whitesmoke;}
+#contenedor{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1500px;
+}
+.navegador #logo{
+	display: flex;
+	background: rgb(0, 0, 0);
+	width: 30%;
+    height: 90px;
+	float: left;
+}
+#logo h1{
+	margin: 30px 0px 10px;
+	color: white;
+}
+#logo a img{
+	width: 100px;
+	height: 50px;
+	margin: 20px 30px;
+}
+.navegador #nav{
+	background: rgb(0, 0, 0);
+	width: 70%;
+    height: 90px;
+    float: right;
+}
+#nav ul{
+    list-style: none;
+    height: 60px;
+	margin-right: 100px;
+	
+}
+#nav ul li{
+	float: right;
+	height: 60px; 
+	margin: 35px 40px;
+}
+#nav ul li a:link, #nav ul li a:visited{
+	display: block; 
+	height: 60px; 
+	margin: 0 5px; 
+	color: rgb(255, 255, 255); 
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	height: 30px;
+	color: rgb(255, 255, 255); 
+	background-color: gray;
+}
+#productos-destacados{
+	background-color: rgb(255, 255, 255);
+	height: 600px;
+	width: 1200px;
+}
+.productos{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+
+}
+.destacados{
+	background-color: white;
+	margin-top: 50px;
+	flex: auto;
+	border: 1px solid;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.destacados img{
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+
+.producto-info{
+	margin-top: 10px;
+}
+.producto-info h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#destacado{
+	font-size: 30px;
+	padding-top: 15px;
+	text-align: center;
+}
+#staff{
+	background-color:rgb(255, 255, 255);
+	height: 750px;
+	width: 1200px;
+}
+#staff h3{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+.members{
+	margin-top: 60px;
+	display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+}
+.desarollador{
+	flex: auto;
+    max-width: 50%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.desarollador img{
+	width: 200px;
+    height: 200px;
+	object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.member-info{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.member-info h4{
+	font-style: italic;
+    margin-bottom: 10px;
+}
+.historia{
+	padding: 10px;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	font-size: 20px;
+	width: 300px;
+	flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.historia p{
+	margin-bottom: 15px;
+}
+.noticias{
+    padding: 20px;
+	padding-bottom: 400px;
+}
+.linea{
+	margin: 0 110px 0 110px;
+	background-color: black;
+	border: 1px solid black;
+	margin-bottom: 80px;
+}
+.linea2{
+	background-color: black;
+	border: 1px solid black;
+	margin-bottom: 80px;
+}
+.noticias h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.noticias-container {
+    display: flex;
+    gap: 30px;
+}
+
+.news {
+    flex: content;
+    display: flex;
+    gap: 20px;
+}
+
+.publicidad{
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-box, .publicidad-box {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.news .news-box {
+    flex: 1;
+    background-color: #f0f0f0;
+}
+
+.publicidad-box{
+    min-height: 100px;
+}
+
+.publicidad-box{
+    background-color: #ffffff;
+    border-left: 5px solid #d4d4d4;
+}
+.news-box h3, .publicidad-box h3{
+    margin-bottom: 10px;
+}
+
+.news-box p, .publicidad-box p{
+    font-size: 0.9em;
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.copyright, .contacto, .redes-sociales{
+    flex-basis: 200px;
+}
+
+.footer-info h4{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-info p{
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.redes-sociales a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.redes-sociales a:hover{
+    text-decoration: underline;
+}
+
+.mapa-container{
+    flex-basis: 400px;
+}
+
+.mapa-container iframe{
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+.footer-content{
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info, .mapa-container{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-info{
+    justify-content: center;
+    text-align: center;
+}
