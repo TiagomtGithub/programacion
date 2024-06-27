@@ -10,7 +10,6 @@ body{
     background-position: center;
     filter: brightness(0.8) contrast(1.2);
     font-family: sans-serif;
-
 }
 #contenedor{
 	width: 1200px;
@@ -184,12 +183,15 @@ body{
 
 .footer-info h4{
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 .footer-info p{
     margin-bottom: 5px;
-    font-size: 0.9em;
+    font-size: 10px;
+}
+.copyright{
+	margin-top: 33px;
 }
 
 .redes-sociales a{
@@ -198,7 +200,10 @@ body{
     text-decoration: none;
     margin-bottom: 5px;
 }
-
+.redes-sociales a i{
+    margin-right: 7px;
+    font-size: 17;
+}
 .redes-sociales a:hover{
     text-decoration: underline;
 }

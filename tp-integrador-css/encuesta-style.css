@@ -66,14 +66,14 @@ body{
     margin: 0 auto;
     overflow: hidden;
 }
-.data-section{
+.datos-section{
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
-.data-section h2{
+.datos-section h2{
     color: #000000;
     margin-bottom: 15px;
 }
@@ -91,7 +91,7 @@ th{
     background-color: #000000;
     color: white;
 }
-.survey-results {
+.encuestas{
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 40px 20px;
@@ -99,30 +99,30 @@ th{
     margin: 20px 0;
 }
 
-.survey-results h2 {
+.encuestas h2{
     color: #4CAF50;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.survey-results > p {
+.encuestas p{
     text-align: center;
     margin-bottom: 30px;
 }
 
-.result-items {
+.resultados-conten{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.result-item {
+.resultados{
     flex-basis: 250px;
     text-align: center;
     margin: 15px;
 }
 
-.result-item .percentage {
+.resultados .porcentaje{
     font-size: 36px;
     font-weight: bold;
     color: #4CAF50;
@@ -130,61 +130,57 @@ th{
     margin-bottom: 10px;
 }
 
-.result-item .icon {
+.resultados .icon{
     font-size: 36px;
     display: block;
     margin-bottom: 10px;
 }
 
-.result-item p {
+.resultados p{
     font-size: 14px;
 }
-.feedback-section {
-    background-color: #f5f5f5;
+.feedback-section{
+    background-color: #F5F7F8;
     padding: 40px 20px;
     text-align: center;
 }
 
-.feedback-section h2 {
+.feedback-section h2{
     color: #333;
     margin-bottom: 10px;
 }
 
-.feedback-section > p {
+.feedback-section p{
     color: #666;
     margin-bottom: 30px;
 }
 
-.feedback-stats {
+.feedback-stats{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.stat-item {
+.stats{
     flex-basis: 200px;
     margin: 20px;
 }
 
-.stat-item i {
+.stats i{
     font-size: 48px;
     color: #4CAF50;
 }
 
-.stat-item h3 {
+.stats h3{
     margin: 10px 0;
     color: #333;
 }
 
-.stat-number {
+.feedback-stats p{
     font-size: 36px;
     font-weight: bold;
     color: #4CAF50;
 }
-.icon-happy::before { content: "☺"; }
-.icon-shoes::before { content: "👟"; }
-.icon-store::before { content: "🏪"; }
-.icon-brand::before { content: "®"; }
 
 .footer{
     background-color: #333;
@@ -213,12 +209,15 @@ th{
 
 .footer-info h4{
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 .footer-info p{
     margin-bottom: 5px;
-    font-size: 0.9em;
+    font-size: 10px;
+}
+.copyright{
+	margin-top: 33px;
 }
 
 .redes-sociales a{
@@ -231,7 +230,10 @@ th{
 .redes-sociales a:hover{
     text-decoration: underline;
 }
-
+.redes-sociales a i{
+    margin-right: 7px;
+    font-size: 17;
+}
 .mapa-container{
     flex-basis: 400px;
 }
