@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>registrar</title>
+		<meta name="author" content="BenjaArce-TiagoTorcivia">
+		<link rel="stylesheet" type="text/css" href="formstyle.css">
+	</head>
+	<body>
+		<header>
+			<div class="navegador">
+				<div id="logo">
+					<a href="index.html"><img src="img/logo.png"></a>
+					<h1><a href="#">KIKE</a></h1>
+				</div>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">Encuesta</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="registrar">Register</a></li>
+						<li><a href="#">Productos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="contenedor">
+            <main>
+                <section class="registro">
+                    <div class="registro-contenedor">
+                    <h2>Register</h2>
+                    <form class="registro-form">
+                        <div class="form">
+                            <label for="Nombre">Nombre:</label>
+                            <input type="text" id="Nombre" name="Nombre" required>
+                        </div>
+                
+                        <div class="form">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                
+                        <div class="form">
+                            <label for="password">Contraseña:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                
+                        <div class="form">
+                            <label for="nacimiento">Fecha de nacimiento:</label>
+                            <input type="date" id="nacimiento" name="nacimiento" required>
+                        </div>
+                
+                        <div class="form">
+                            <label>Genero:</label>
+                            <div class="radio-section">
+                                <input type="radio" id="hombre" name="genero" value="hombre">
+                                <label for="hombre">Hombre</label>
+                                <input type="radio" id="mujer" name="genero" value="mujer">
+                                <label for="mujer">Mujer</label>
+                                <input type="radio" id="otro" name="genero" value="otro">
+                                <label for="otro">Otro</label>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <label for="pais">País:</label>
+                            <select id="pais" name="pais" required>
+                                <option value="">Selecciona un país</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">Estados Unidos</option>
+                                <option value="chile">Chile</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="comentario">Comentario:</label>
+                            <textarea id="comentario" name="comentario" rows="4"></textarea>
+                        </div>
+                        <div class="form">
+                            <button type="submit">Registrarse</button>
+                        </div>
+                    </form>
+                </form>
+                </div>
+                </div>
+                </section>
+            </div>
+            </main>
+		<footer class="footer">
+			<div class="footer-content">
+				<div class="footer-info">
+					<div class="copyright">
+						<p>&copy; 2024 Kike. Todos los derechos reservados.</p>
+					</div>
+					<div class="redes-sociales">
+						<h4>Contactanos</h4>
+						<p>123 Carajito, La Rioja, Argentina</p>
+						<p>Telefono: (+54) 38044128</p>
+						<p>Email: kikecontacto@hotmail.com</p>
+					</div>
+					<div class="redes-sociales">
+						<h4>Nuetras redes</h4>
+						<a href="#" class="social-icon">Facebook</a>
+						<a href="#" class="social-icon">Twitter</a>
+						<a href="#" class="social-icon">Instagram</a>
+					</div>
+				</div>
+				<div class="mapa-container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-123.4567890!3d12.3456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDIwJzQ0LjQiTiAxMjPCsDI3JzI0LjQiVw!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
